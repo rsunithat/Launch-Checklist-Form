@@ -35,19 +35,19 @@
             event.preventDefault() 
                let pilotName = document.querySelector("input[name=pilotName]");
                if( (isNaN(pilotName.value))===false || pilotName.value === ""){
-                  alert("enter a valid input");
+                  alert("enter a valid pilot name");
                };
                let copilotName = document.querySelector("input[name=copilotName]");
                if( (isNaN(copilotName.value))===false || copilotName.value === ""){
-                  alert("enter a valid input");
+                  alert("enter a valid copilot name");
                }; 
                let fuelLevel = document.querySelector("input[name=fuelLevel]");
                if( (isNaN(fuelLevel.value))===true || fuelLevel.value === ""){
-                  alert("enter a valid input");
+                  alert("enter a valid number for fuel");
                }; 
                let cargoMass = document.querySelector("input[name=cargoMass]");
                if( (isNaN(cargoMass.value))===true || cargoMass.value === ""){
-                  alert("enter a valid input");
+                  alert("enter a valid number for cargo");
                };   
 
             let  faultyVisible = document.getElementById("faultyItems").style.visibility = "visible"; 
